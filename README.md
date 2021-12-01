@@ -55,5 +55,5 @@ dotenv.config();
 - Sentence form (i.e setting eg restaurant)
 
 
-## Deploying
-
+[//]: # ## Deploying
+[//]: # This project was deployed using [Netlify](https://www.netlify.com/). To view deployed project, click [here] ()
