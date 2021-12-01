@@ -1,0 +1,45 @@
+form {
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button,
+input,
+textarea {
+  margin: 10px 0;
+  border-radius: 1rem;
+  width: 80vw;
+  border: 2px dashed #29d6d1;
+  padding: 0;
+}
+
+#text {
+  height: 30vh;
+  text-align: justify;
+}
+#character-counter {
+  font-weight: bold;
+}
+#button {
+  width: 20vw;
+  height: 2.5rem;
+  background: none;
+  text-align: center;
+}
+#button:hover {
+  background-color: #d6292e;
+  cursor: grab;
+}
+#section-result {
+  margin: 2rem;
+}
+#section-result > strong {
+  font-size: 1.25rem;
+}
+#results p {
+  text-transform: capitalize;
+  margin: 1rem auto;
+}

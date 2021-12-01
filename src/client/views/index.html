@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Natural Language Processing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sora&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="">
+        <h1>Single Page App with Natural Language Processing</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <form action="#" id="form" class="form">
+          <p id="character-counter"></p>
+          <textarea
+            id="text"
+            type="text"
+            name="input"
+            maxlength="600"
+            placeholder="Type in your text"
+          >
+Nigeria doesn’t only have many people living within its borders, but it’s also multicultural. In fact, it’s also one of the most diverse countries in the world in terms of indigenous languages spoken on a regular basis. </textarea
+          >
+          <input id="button" name="" type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section id="section-result">
+        <strong>Form Results:</strong>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>2021 Fourth Udacity Project by Tosin Dawodu</p>
+    </footer>
+    <script>
+      // Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
+  </body>
+</html>
