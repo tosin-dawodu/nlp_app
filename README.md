@@ -39,16 +39,20 @@ const dotenv = require('dotenv');
 dotenv.config();
 ```
 ## Loaders and Plugins Installed
-npm i -D @babel/core @babel/preset-env babel-loader
-npm i -D style-loader node-sass css-loader sass-loader
-npm i -D clean-webpack-plugin
-npm i -D html-webpack-plugin
-npm i -D mini-css-extract-plugin
-npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
-npm install --save-dev jest
+- npm i -D @babel/core @babel/preset-env babel-loader
+- npm i -D style-loader node-sass css-loader sass-loader
+- npm i -D clean-webpack-plugin
+- npm i -D html-webpack-plugin
+- npm i -D mini-css-extract-plugin
+- npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
+- npm install --save-dev jest
 
 ## Values Returned from API 
-Agreement, Subjectivity, Irony, Confidence and Sentence form (i.e setting eg restaurant)
+- Agreement 
+- Subjectivity
+- Irony
+- Confidence
+- Sentence form (i.e setting eg restaurant)
 
 
 ## Deploying
