@@ -4,7 +4,7 @@ async function handleSubmit(event, sectionResult, text) {
   if (text.value.length < 1) {
     alert("Please type in a message");
   } else {
-    const response = await fetch("/test", {
+    const response = await fetch("http://localhost:8081/test", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
